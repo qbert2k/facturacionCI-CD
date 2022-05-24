@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: billing-app-back-jenkis
-          image: abeldiaz/facturacion-clase-ci      
+          image: qbert2k/facturacion      
           ports:
             - containerPort: 7280
               name: billingappbport
